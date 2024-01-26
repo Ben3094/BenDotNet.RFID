@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "tMUdfwvItseOkFNQ4vgFrOjOJL8qNw2O3KsEqw1yX3g6ceNfMof/2bQQqZMKqX6MIrdWuXXqmoQLqBIpZ1VLBA==",
+  "success": true,
+  "projectFilePath": "c:\\Users\\bensa\\Desktop\\RFID\\BenDotNet.RFID\\Source\\BenDotNet.RFID.NFC\\BenDotNet.RFID.NFC.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\bensa\\.nuget\\packages\\bendotnet.rfid\\0.2.10\\bendotnet.rfid.0.2.10.nupkg.sha512"
+  ],
+  "logs": []
+}

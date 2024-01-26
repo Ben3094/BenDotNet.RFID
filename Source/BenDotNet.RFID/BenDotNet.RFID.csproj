@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Version>0.2.10</Version>
+    <PackageProjectUrl>https://github.com/Ben3094/BenDotNet.RFID</PackageProjectUrl>
+    <PackageLicenseUrl></PackageLicenseUrl>
+    <Copyright>2022 Benjamin Saggin</Copyright>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Company>Benjamin Saggin</Company>
+    <Product>BenDotNet.RFID</Product>
+    <AssemblyVersion></AssemblyVersion>
+    <FileVersion></FileVersion>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <ProduceReferenceAssembly>True</ProduceReferenceAssembly>
+    <GenerateDocumentationFile>False</GenerateDocumentationFile>
+    <DebugType>embedded</DebugType>
+    <RepositoryUrl>https://github.com/Ben3094/BenDotNet.RFID.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <Description>An abstraction library for RFID</Description>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <OutputPath>..\..\Build\Debug</OutputPath>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <OutputPath>..\..\Build\Release</OutputPath>
+    <Optimize>False</Optimize>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>

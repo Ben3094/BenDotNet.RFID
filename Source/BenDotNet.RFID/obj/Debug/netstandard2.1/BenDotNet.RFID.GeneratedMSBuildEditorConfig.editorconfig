@@ -1,0 +1,5 @@
+is_global = true
+build_property.RootNamespace = BenDotNet.RFID
+build_property.ProjectDir = c:\Users\bensa\Desktop\RFID\BenDotNet.RFID\Source\BenDotNet.RFID\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
